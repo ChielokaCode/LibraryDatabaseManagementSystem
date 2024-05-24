@@ -2,6 +2,8 @@ SQL SCRIPT FOR CREATING DATABASE AND TABLES USING IN LIBRARY MAGNAGEMENT
 
 Download TOMCAT 10.1.24 or any lower version
 
+If you are using MySQL database, go in any type in this script below one by one
+
 1 CREATE DATABASE libManagementDB;
 
 2 USE libManagementDB;
