@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LibraryDatabaseManagementSystem:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c4888780-e3b5-4f6f-8511-9b0ad702a972" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/config/DatabaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/controller/AdminLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/controller/AuthorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/controller/IssuedBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/controller/LibrarianController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/controller/PurchasesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/controller/UserLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/dao/AdminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/dao/IssuedBookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/dao/LibrarianDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/dao/PurchasesDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/dtos/LoginRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/dtos/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/model/IssuedBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/model/Librarian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/model/Purchases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chielokacodes/librarydatabasemanagementsystem/serviceImpl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/aboutus.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/addbook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/addissue.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/addlibrarian.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/addpurchase.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/adduser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admincon.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/adminlogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/adminpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/adminreg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/adminresult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/allbooks.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/authors.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/contact.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/displayP.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/displayp2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/material-design-iconic-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/customers.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/deletebook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/deleteissue.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/deletelibrarian.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/deletemember.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/deletepurchase.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/display.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/A Hundred Pieces of me.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Battles that Shaped Indian history.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Black Sun.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Book marketing for Academics.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/British Black history.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Build yourself a boat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Cats Vs Robots.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Chicago's Great Fire.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Children of ruin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Confucius and the World He created.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Her favorite color was yellow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/IT.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/If You Tell.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Moby Dick.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Peeny Butter Fudge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Pet sematary.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Practical Programming.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/She Lies in Wait.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Sincerely..jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Story of my life.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/The Calculating stars.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/The Green room.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/The Hunger games.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/The Shadow King.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/The Silent Wife.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/The Snowy day.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/The lucky puppy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/The mouse that was ....jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/The new practical Chinese Reader.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Where the forest meets the stars.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/World History.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/World War Z.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Your soul is a river.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/finding Winnie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/move the Rock of academic writing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/issuedbooks.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/librarian.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/logincon.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/purchases.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/rent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ship.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shipment.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/viewbook.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="MavenRunConfiguration" name="LibraryDatabaseManagementSystem [verify]" />
+    </enabled-run-configurations>
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2gh2YqDYozsuBGaVZu2evjt3zvy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Maven.LibraryDatabaseManagementSystem [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LibraryDatabaseManagementSystem [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.Tomcat: LibraryDatabaseManagementSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.161.executor&quot;: &quot;Coverage&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.24.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wikiwoo/Desktop/JavaTuts/LibraryDatabaseManagementSystem/src/main/webapp/css&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.26091954&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.1.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.24" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="LibraryDatabaseManagementSystem:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/LibraryMgt" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="ca99f585-54de-494a-9603-87744c0f9f77" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+        <option name="HTTP_PORT" value="8081" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53545" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="LibraryDatabaseManagementSystem:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-5f3ff201" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4888780-e3b5-4f6f-8511-9b0ad702a972" name="Changes" comment="" />
+      <created>1716135540748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716135540748</updated>
+      <workItem from="1716135542397" duration="17378000" />
+      <workItem from="1716161208362" duration="107000" />
+      <workItem from="1716161346988" duration="1671000" />
+      <workItem from="1716443974731" duration="20047000" />
+      <workItem from="1716468155016" duration="5656000" />
+      <workItem from="1716474952252" duration="15900000" />
+      <workItem from="1716494074798" duration="55000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="com.intellij.configurationType" implementationName="com.poratu.idea.plugins.tomcat" />
+    <option featureType="dependencySupport" implementationName="maven-packaging:war" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
