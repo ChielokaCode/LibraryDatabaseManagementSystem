@@ -12,8 +12,9 @@ If you are using MySQL database, go in, and type in this script below one by one
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     password VARCHAR(255) NOT NULL,
-    email VARCHAR(255) (100),
-    phone VARCHAR(255) NOT NULL
+    email VARCHAR(255) NOT NULL UNIQUE,
+    phone VARCHAR(255) NOT NULL,
+    role VARCHAR(20) NOT NULL
 );
 
 
@@ -21,7 +22,7 @@ If you are using MySQL database, go in, and type in this script below one by one
     id INT AUTO_INCREMENT PRIMARY KEY,
     book_name VARCHAR(255) NOT NULL,
     author VARCHAR(255) NOT NULL,
-    genre VARCHAR(100),
+    genre VARCHAR(100) NOT NULL,
     price DECIMAL(10, 2) NOT NULL
 );
 
@@ -30,16 +31,16 @@ If you are using MySQL database, go in, and type in this script below one by one
     name VARCHAR(255) NOT NULL,
     book VARCHAR(255) NOT NULL,
     username VARCHAR(255) NOT NULL,
-    issue_date VARCHAR(255)NOT NULL,
-    due_date VARCHAR(255)NOT NULL,
-    returned VARCHAR(255)NOT NULL
+    issue_date VARCHAR(255) NOT NULL,
+    due_date VARCHAR(255) NOT NULL,
+    returned VARCHAR(255) NOT NULL
 );
 
 6 CREATE TABLE librarian (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
-    email VARCHAR(100) NOT NULL,
-    days VARCHAR(255)NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    days VARCHAR(255) NOT NULL,
     type VARCHAR(50) NOT NULL
 );
 
@@ -49,5 +50,14 @@ If you are using MySQL database, go in, and type in this script below one by one
     username VARCHAR(255) NOT NULL,
     book VARCHAR(255) NOT NULL,
     country VARCHAR(255) NOT NULL,
-    address VARCHAR(255)NOT NULL
+    address VARCHAR(255) NOT NULL
+);
+
+8  CREATE TABLE admin(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    phone VARCHAR(255) NOT NULL,
+    role VARCHAR(20) NOT NULL
 );
